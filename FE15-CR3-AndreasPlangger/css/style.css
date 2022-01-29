@@ -78,6 +78,26 @@ svg {
   display: none;
 }
 
+.review {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.review:hover {
+  text-decoration: none;
+  color: #198754;
+}
+
+.footpara {
+  font-size: x-small;
+  margin: 0px;
+}
+
+.mt-3 {
+  margin-top: 0rem !important;
+}
+
 @media screen and (min-width: 480px) {
   .contact-img {
     width: 100%;
