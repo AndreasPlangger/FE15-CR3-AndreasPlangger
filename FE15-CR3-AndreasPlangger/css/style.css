@@ -1,47 +1,7 @@
-.navbar-light .navbar-nav .nav-link {
-  color: #070707;
-}
-
-.btn-outline-success {
-  color: #fff;
-  background-color: #198754;
-  border-color: #198754;
-}
-
-.card.bg-dark.text-black {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 10vw;
-}
-
 .card-img-overlay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-}
-
-.hero.card-title {
-  color: white;
-  font-size: 8vw;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
 }
 
 .list-group {
@@ -58,9 +18,9 @@ svg {
   color: #198754;
 }
 
-.herotext {
-  color: white;
-  font-size: 4vw;
+.hero-text {
+  color: white !important;
+  font-size: 4vw !important;
 }
 
 .btn-primary {
@@ -68,10 +28,6 @@ svg {
   font-size: 3vw;
   background-color: #198754;
   border-color: #198754;
-}
-
-.stages {
-  padding-left: 1vw;
 }
 
 .contact-img {
@@ -107,10 +63,7 @@ svg {
 }
 
 @media (min-width: 768px) {
-  .hero.card-title {
-    font-size: 9vw;
-  }
-  .herotext {
+  .hero-text {
     font-size: 4vw;
   }
   .btn-primary {
