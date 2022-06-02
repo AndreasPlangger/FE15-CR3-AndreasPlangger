@@ -1,69 +1,104 @@
-.card-img-overlay {
-    justify-content: flex-end;
-}
+@media screen and (min-width: 320px) {
 
-.list-group {
-    flex-direction: row;
-    padding-left: 0;
-    margin-bottom: 0;
-    border-radius: 0.25rem;
-}
+    .hero-headline {
+        font-size: 1.4rem !important;
+        margin-bottom: 0 !important;
+    }
 
-svg {
-    color: #198754;
-}
-
-.hero-text {
-    color: white !important;
-    font-size: 4vw !important;
-}
-
-.btn-primary {
-    color: #fff;
-    font-size: 3vw;
-    background-color: #198754;
-    border-color: #198754;
-}
-
-.contact-img {
-    display: none;
-}
-
-.review {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-
-.review:hover {
-    text-decoration: none;
-    color: #198754;
-}
-
-.footpara {
-    font-size: x-small;
-    margin: 0px;
-}
-
-.mt-3 {
-    margin-top: 0rem !important;
+    .hero-details {
+        font-size: 0.7rem !important;
+    }
 }
 
 @media screen and (min-width: 480px) {
     .contact-img {
-        width: 100%;
-        height: auto;
-        display: block;
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    .hero-headline {
+        font-size: 2rem !important;
+    }
+
+    .hero-details {
+        font-size: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width: 549px) {
+    .hero-headline {
+        font-size: 3rem !important;
+    }
+
+    .hero-details {
+        font-size: 1rem !important;
     }
 }
 
-@media (min-width: 768px) {
-
-    .hero-text {
-        font-size: 4vw;
+@media screen and (min-width: 768px) {
+    .hero-headline {
+        font-size: 4rem !important;
     }
 
-    .btn-primary {
-        font-size: 3vw;
+    .hero-details {
+        font-size: 1.5rem !important;
+    }
+
+    .hero-booking-btn {
+        font-size: 1.5rem !important;
+        width: 10rem !important;
+    }
+
+    svg {
+        color: #198754;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .hero-headline {
+        font-size: 6rem !important;
+    }
+
+    .hero-details {
+        font-size: 2rem !important;
+    }
+
+    .hero-booking-btn {
+        font-size: 1.5rem !important;
+        width: 10rem !important;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .hero-headline {
+        font-size: 8rem !important;
+    }
+
+    .hero-details {
+        font-size: 3rem !important;
+    }
+
+    .hero-booking-btn {
+        font-size: 2rem !important;
+        width: 12rem !important;
+    }
+}
+
+@media screen and (min-width: 1940px) {
+    .hero-headline {
+        font-size: 10rem !important;
+    }
+
+    .hero-details {
+        font-size: 5rem !important;
+    }
+
+    .hero-booking-btn {
+        font-size: 3rem !important;
+        width: 20rem !important;
     }
 }
